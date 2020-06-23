@@ -2,7 +2,7 @@
   "name": "qpp-mips-eligibility-decision-tree",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DanielMiller-agile6.github.io/qpp-mips-eligibility-decision-tree",
+  "homepage": "https://danielmiller-agile6.github.io/qpp-mips-eligibility-decision-tree",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
