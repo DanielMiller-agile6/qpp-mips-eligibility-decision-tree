@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/qpp-mips-eligibility-decision-tree/precache-manifest.c96ce73bf14258fe70364c9b43db44e8.js"
+  "/qpp-mips-eligibility-decision-tree/precache-manifest.cd13581abab7a1187bba5c4189c0648a.js"
 );
 
 self.addEventListener('message', (event) => {
