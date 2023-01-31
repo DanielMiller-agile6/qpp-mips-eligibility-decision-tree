@@ -17,7 +17,7 @@ import "./App.css";
 library.add(faQuestion, faThumbsUp, faThumbsDown, faCheck, faTimes);
 
 const triggerSurvey = (window) => {
-  window.hj("event", "example_event");
+  window.hj("event", "intercept-survey-all-categories-submit");
 };
 
 function App() {
