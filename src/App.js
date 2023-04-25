@@ -17,17 +17,21 @@ import "./App.css";
 library.add(faQuestion, faThumbsUp, faThumbsDown, faCheck, faTimes);
 
 const triggerSurvey = (window) => {
-  window.hj("event", "intercept-survey-all-categories-submit");
+  window.hj("event", "intercept-survey-quality-submit");
 };
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>MIPS Eligibility Decision Tree - Prototype UI </h1>
+        <h1>HotJar Testing - Prototype UI</h1>
       </header>
       <main>
-        <div style={{ marginTop: "2rem" }}>
+        <p>
+          This site is currently used for HotJar testing and demos. It is not
+          intended for government use.
+        </p>
+        {/*<div style={{ marginTop: "2rem" }}>
           <Button
             big
             outline
@@ -36,8 +40,8 @@ function App() {
           >
             Test Event Driven Survey
           </Button>
-        </div>
-        <MipsDecisionTree />
+        </div>*/}
+        {/*<MipsDecisionTree />*/}
       </main>
     </div>
   );
